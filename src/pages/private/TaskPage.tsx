@@ -15,7 +15,6 @@ export const TaskPage = () => {
     crearTarea, editarTarea, cambiarEstadoTarea, eliminarTarea 
   } = useTareas(); 
 
-  const [nuevaTarea, setNuevaTarea] = useState('');
   const [tareaEditando, setTareaEditando] = useState<Tarea | null>(null);
   const [textoEdicion, setTextoEdicion] = useState('');
 
